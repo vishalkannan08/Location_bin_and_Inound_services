@@ -10,7 +10,7 @@ spring:
   datasource:
     url: ${DB_URL:jdbc:postgresql://localhost:5432/wms_location_bin}
     username: ${DB_USERNAME:postgres}
-    password: ${DB_PASSWORD:2001}
+    password: ${DB_PASSWORD:postgres}
     hikari:
       maximum-pool-size: 10
       pool-name: location-bin-pool
